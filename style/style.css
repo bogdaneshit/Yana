@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+button {
+    cursor: pointer;
+}
+
+
+
+.content {
+    max-width: 1120px;
+    padding: 0 15px;
+    margin: 0 auto;  
+}
+
+.navbar {
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+    font-size: 27px;
+    font-weight: 700;
+}
+.header_links {
+    display: flex;
+    gap: 20px;
+}
+
+.header_contacts {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 18px;
+}
+
+.call {
+    width: 100px;
+    height: 30px;
+    background: 0;
+    font-size: 14px;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+.call:hover {
+    background-color: rgb(174, 170, 170);
+    
+}
+
+.header_link {
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.header_link:hover {
+    color: goldenrod;
+    
+}
+
+.main_baner__block {
+    max-width: 1150px;
+    height: 700px;
+    background: url('../images/mebel.jpg') center no-repeat ;
+    background-size: contain;
+}
+
+.main_title__block {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.main_subtitle__block {
+    font-size: 18px;
+    line-height: 1.8em;
+}
+
+.showcase__title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.showcase__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.showcase_img {
+    width: 300px;
+    height: 300px;
+}
+
+.sales_img {
+    width: 300px;
+    height: 300px;
+}
+
+.sales__block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main__sales__title {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.sales__item h3 {
+    font-size: 15px;
+}
+
+.footer {
+    margin-top: 150px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.politika {
+    text-decoration: underline;
+    color: white;
+}
